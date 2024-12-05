@@ -1,4 +1,14 @@
-<<<<<<< HEAD
+<a href="https://crm-and-finance-pages-in-react.netlify.app/">View Pages</a>
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,6 +79,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# finance-frontend
->>>>>>> c0164e11d6a849997f60a51c646d7a9d06eb9b77
