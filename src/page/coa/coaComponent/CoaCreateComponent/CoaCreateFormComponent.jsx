@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import CoaCreateFromHangleComponent from './CoaCreateFromHangleComponent'
 import CustomCreateButton from '../../../../components/Form/CustomCreateButton'

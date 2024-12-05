@@ -33,6 +33,7 @@ const useFetchListData = (endpoint, { page, search, status, start_date, end_date
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line
   }, [endpoint, page, search, status, start_date, end_date, username, employee_id]);
 
   return { data, totalItems, isLoading, error, fetchData };

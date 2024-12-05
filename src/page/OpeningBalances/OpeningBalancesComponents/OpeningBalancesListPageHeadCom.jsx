@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import PageTitleComponent from '../../../components/PageTitleComponent'
 import { Table } from 'antd'

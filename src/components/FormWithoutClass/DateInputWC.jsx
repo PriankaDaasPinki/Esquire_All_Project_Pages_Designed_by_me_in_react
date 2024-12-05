@@ -9,7 +9,7 @@ function DateInputWC({placeholder,onChange,label,isRequired,id, value, dateForma
         flexDirection: 'column',
         alignItems: 'flex-start',
         gap: '28px',
-        borderRadius: 'var(--none, 0px)',
+        // borderRadius: 'var(--none, 0px)',
         strokeEidth: '0.5px',
         fontSize: '13px',
         borderRadius: '3px',

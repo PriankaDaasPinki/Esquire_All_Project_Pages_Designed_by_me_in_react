@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect } from 'react';
 import { authAxios, baseURL } from '../baseURL';
 import ShowToast from '../components/ShowToast';

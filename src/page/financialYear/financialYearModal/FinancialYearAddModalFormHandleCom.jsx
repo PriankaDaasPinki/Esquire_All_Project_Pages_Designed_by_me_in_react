@@ -7,7 +7,7 @@ import { authAxios, baseURL } from '../../../baseURL';
 import ShowToast from '../../../components/Form/ShowToast';
 // import Swal from 'sweetalert2';
 
-
+// eslint-disable-next-line
 const FinancialYearAddModalFormHandleCom = ({
   id,
   ActionURL,

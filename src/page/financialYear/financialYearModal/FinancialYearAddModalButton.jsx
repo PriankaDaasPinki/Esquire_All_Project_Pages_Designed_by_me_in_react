@@ -12,16 +12,16 @@ const FinancialYearAddModalButton = ({
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
   // eslint-disable-next-line
-  const [selectedID, setSelectedID] = useState(null);
+  // const [selectedID, setSelectedID] = useState(null);
 
   const openModal = (id) => {
     setModalOpen(true);
-    setSelectedID(id)
+    // setSelectedID(id)
   };
 
   const closeModal = () => {
     setModalOpen(false);
-    setSelectedID(null)
+    // setSelectedID(null)
   };
 
 

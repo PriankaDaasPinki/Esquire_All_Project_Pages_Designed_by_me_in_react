@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from 'react'
 import CoaUpdateFormHandleComponent from './CoaUpdateFormHandleComponent'
 import HorizontalInputFiled from '../../../../components/Form/HorizontalInputFiled'
@@ -128,7 +129,7 @@ const CoaUpdateFormComponent = ({
           </form>
 
           <div className="flex gap-x-4 my-4">
-          {formData.head_label != 6 &&(
+          {formData.head_label !== 6 &&(
             <>
             {hasPermission('create_acc_coa') && (
               <button className='bg-[#2e6da4] text-[#fff] rounded-[5px] px-4 py-1' onClick={hndaleCreateFormOpen}>

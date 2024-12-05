@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { FaBars, FaPowerOff, FaSearch, FaUser } from 'react-icons/fa';
+import { FaBars, FaPowerOff, FaUser } from 'react-icons/fa';
 import { useSelector, useDispatch } from 'react-redux';
-import { useNavigate, Link, Navigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { logout, selectIsLoggedIn } from '../page/Authentication/Login/authSlice';
 import { CSSTransition } from 'react-transition-group';
 import '../assest/CSS/CSSTransition.css'
-import { baseURL } from '../baseURL';
+// import { baseURL } from '../baseURL';
 
 const TopBar = ({ toggleMenuVisibility }) => {
 

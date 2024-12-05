@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from 'react'
 import OpeningBalancesListComponents from './OpeningBalancesComponents/OpeningBalancesListComponents'
 import OpeningBalancesListPageHeadCom from './OpeningBalancesComponents/OpeningBalancesListPageHeadCom'

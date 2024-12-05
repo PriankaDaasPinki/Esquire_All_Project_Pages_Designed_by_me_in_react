@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { ImCancelCircle } from 'react-icons/im';
 import Modal from 'react-modal';
-import TransportedProductRcvStatusFormCom from './FinancialYearAddModalFormCom';
+// import TransportedProductRcvStatusFormCom from './FinancialYearAddModalFormCom';
 import FinancialYearAddModalFormCom from './FinancialYearAddModalFormCom';
 
 function FinancialYearAddModal(

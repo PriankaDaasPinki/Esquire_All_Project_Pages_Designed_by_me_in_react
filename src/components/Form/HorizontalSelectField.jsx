@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../assest/CSS/HorizontalSelectField.css'
+// eslint-disable-next-line
 import Select, { StylesConfig } from 'react-select';
 import '../../assest/CSS/HorizontalSelectField.css'
 

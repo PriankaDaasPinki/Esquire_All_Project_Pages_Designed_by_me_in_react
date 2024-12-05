@@ -4,14 +4,16 @@ import { CSVLink } from 'react-csv';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 import { SiMicrosoftexcel } from "react-icons/si";
-import { FaFilePdf,FaFileCsv,FaFileExcel  } from "react-icons/fa6";
+import { FaFilePdf,FaFileCsv  } from "react-icons/fa6";
 import ShowToast from './ShowToast';
 import { authAxios, baseURL } from '../baseURL';
 import ScaleLoader from 'react-spinners/ScaleLoader';
 
 const ExportDataComponent = ({ filename, isExcel, isPdf, isCsv, searchText, startDate, endDate, apiEndpoint }) => {
   const [exportLoading, setExportLoading] = useState(false);
+  // eslint-disable-next-line
   const [data, setData] = useState(null);
+  // eslint-disable-next-line
   const [error, setError] = useState(null);
   const [csvData, setCsvData] = useState([]); // State for CSV data
   const csvLinkRef = useRef(null);

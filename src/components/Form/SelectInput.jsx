@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line
 import Select, { StylesConfig } from 'react-select';
 import '../../assest/CSS/ReactSelectCustomize.css'
 

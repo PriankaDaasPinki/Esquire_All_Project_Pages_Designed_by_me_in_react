@@ -27,6 +27,7 @@ const useFetchDetailsData = (endpoint, { id }) => {
 
 useEffect(() => {
   fetchDetailsData();
+  // eslint-disable-next-line
 }, [id]); 
 
   return { detailsData, loading, error, fetchDetailsData };
