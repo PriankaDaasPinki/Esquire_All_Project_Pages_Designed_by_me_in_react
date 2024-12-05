@@ -5,7 +5,7 @@ import esqLogo from "../../../assest/Images/esqLogo.png";
 const VoucherDetails = () => (
   <div className="px-4 py-2">
     <div className="flex align-middle justify-between mb-4 mt-2">
-      <img src={esqLogo} className="w-36" />
+      <img src={esqLogo} className="w-36" alt="esqLoogo" />
       <div>
         <p className="text-2xl text-center font-bold p-0 m-0">E-BIT Finance</p>
         <p className="text-green-600">Approved Voucher</p>        

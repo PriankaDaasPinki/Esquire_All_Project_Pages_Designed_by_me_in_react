@@ -1,6 +1,6 @@
 // CustomSubMenu.jsx
 import React, { useState } from 'react';
-import { FaAngleDown, FaPlusCircle, FaChartPie, FaUser, FaMinusCircle } from 'react-icons/fa';
+import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa';
 
 const CustomSubMenu = ({ label, icon, children }) => {
   const [isCollapsed, setCollapsed] = useState(true);

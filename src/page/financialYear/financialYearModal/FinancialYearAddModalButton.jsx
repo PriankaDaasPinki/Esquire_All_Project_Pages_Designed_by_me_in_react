@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import TransportedProductRcvStatusModal from './FinancialYearAddModal';
+// import TransportedProductRcvStatusModal from './FinancialYearAddModal';
 import FinancialYearAddModal from './FinancialYearAddModal';
 //import TransportedProductRcvStatusModal from './TransportedProductRcvStatusModal';
 
@@ -11,6 +11,7 @@ const FinancialYearAddModalButton = ({
   buttonName,
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
+  // eslint-disable-next-line
   const [selectedID, setSelectedID] = useState(null);
 
   const openModal = (id) => {

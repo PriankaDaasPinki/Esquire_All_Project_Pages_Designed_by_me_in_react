@@ -32,10 +32,7 @@ const UserFormComponents = ({id}) => {
         selectedPrimaryRole,
         helpdeskRoleOptions,
         selectedHelpdeskRole,
-        errorMessage,
-        permissions,
         handleChange,
-        handleSelectChange,
         handleRoleChange,
         handleSecondaryCompanyChange,
         handlePrimaryRoleChange,
@@ -268,11 +265,11 @@ const UserFormComponents = ({id}) => {
               />
                 {imagePreview?
                 <>
-                {imagePreview && <img src={imagePreview} className='w-[30px] h-[30px]' />}
+                {imagePreview && <img src={imagePreview} className='w-[30px] h-[30px]' alt='altimg' />}
                 </>
                 :
                 <>
-                {currentPhoto && <img src={currentPhoto} className='w-[30px] h-[30px]' />}
+                {currentPhoto && <img src={currentPhoto} className='w-[30px] h-[30px]' alt='altimg' />}
                 </>
                 }
 

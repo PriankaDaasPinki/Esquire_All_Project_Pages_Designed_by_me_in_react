@@ -5,7 +5,7 @@ import { CSSTransition } from "react-transition-group";
 import Sidebars from "./Sidebars";
 import TopBar from "./Topbar";
 import Home from "../page/Home";
-import Login from "../page/Authentication/Login/Login";
+// import Login from "../page/Authentication/Login/Login";
 import ProtectedRoute from "./ProtectedRoutes";
 // import PublicRoute from "./PublicRoute";
 import PasswordChange from "../page/user/updatePassword";

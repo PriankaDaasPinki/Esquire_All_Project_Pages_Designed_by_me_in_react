@@ -4,7 +4,7 @@ import SelectInputWC from '../../../../components/FormWithoutClass/SelectInputWC
 import SelectMultipleInput from '../../../../components/FormWithoutClass/SelectMultipleInput'
 import Checkbox from '../../../../components/Form/Checkbox'
 import FormPageTitle from '../../../../components/Form/FormPageTitle'
-import LoadingSpinner from '../../../../components/LoadingSpinner'
+// import LoadingSpinner from '../../../../components/LoadingSpinner'
 import ProfileUpdateFormHandlerComponent from './ProfileUpdateFormHandlerComponent'
 
 const ProfileUpdateFormComponent = () => {
@@ -29,9 +29,9 @@ const ProfileUpdateFormComponent = () => {
         selectedPrimaryRole,
         helpdeskRoleOptions,
         selectedHelpdeskRole,
-        errorMessage,
+        // errorMessage,
         handleChange,
-        handleSelectChange,
+        // handleSelectChange,
         handleRoleChange,
         handleSecondaryCompanyChange,
         handlePrimaryRoleChange,
@@ -39,8 +39,8 @@ const ProfileUpdateFormComponent = () => {
         handleCompanyChange,
         handleDepartmentChange,
         handleDesignationChange,
-        handlePermissionChange,
-        handleModelPermissionChange,
+        // handlePermissionChange,
+        // handleModelPermissionChange,
         handleHelpdeskRoleChange,
         currentPhoto,
         imagePreview,

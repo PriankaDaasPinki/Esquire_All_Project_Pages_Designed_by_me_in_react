@@ -23,7 +23,7 @@ const UserListComponent = ({ apiEndpoint, detailsURL, detailsPermissionCode }) =
     employee_id: searchEmployeeId,
   };
 
-  const { data, totalItems, isLoading, error, fetchData } = useFetchUserListData(`${apiEndpoint}`, params);
+  const { data, totalItems, isLoading } = useFetchUserListData(`${apiEndpoint}`, params);
 
 
   const dataSource = data?.flatMap((data, index) => ({

@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
+// eslint-disable
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 //import { authAxiosWithBearer, baseURL } from '../../../../../baseURL';
 //import ShowToast from '../../../../../Components/ShowToast';
 import { authAxios, baseURL } from '../../../baseURL';
 import ShowToast from '../../../components/Form/ShowToast';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 
 const FinancialYearAddModalFormHandleCom = ({
@@ -50,6 +51,7 @@ const FinancialYearAddModalFormHandleCom = ({
       };
   
       fetchSingleFinancialData();
+      // eslint-disable-next-line
     }, [id, jwtToken]);
    
   

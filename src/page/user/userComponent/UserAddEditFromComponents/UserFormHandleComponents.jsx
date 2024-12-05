@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { authAxios, baseURL } from '../../../../baseURL';
 import { useNavigate } from 'react-router-dom';
 import usePermissions from '../../../../hooks/usePermissions';

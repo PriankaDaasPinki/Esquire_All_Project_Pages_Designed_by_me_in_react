@@ -9,7 +9,7 @@ import UserPermissionDetailsComponent from './userComponent/UserPermissionDetail
 
 function UserDetails() {
   const { id } = useParams()
-  const { detailsData: userData, loading, error, fetchDetailsData } = useFetchDetailsData(`drf-finance/users`, { id })
+  const { detailsData: userData, loading } = useFetchDetailsData(`drf-finance/users`, { id })
 
 
   if (loading) {

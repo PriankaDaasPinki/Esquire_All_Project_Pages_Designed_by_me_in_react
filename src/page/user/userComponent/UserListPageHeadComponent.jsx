@@ -4,15 +4,15 @@ import { AiOutlineSearch } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
 const UserListPageHeadComponent = ({
-    setSearchText,
+    // setSearchText,
     setSearchUsername,
     setSearchEmloyeeId
 }) => {
   const {hasPermission} = usePermissions();
 
-  const handleSearch = (value) => {
-    setSearchText(value);
-  };
+  // const handleSearch = (value) => {
+  //   setSearchText(value);
+  // };
 
   const handleSearchUsername = (value) => {
     setSearchUsername(value);
